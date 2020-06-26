@@ -29,6 +29,7 @@ import {
   addressListURL
 } from "../constants";
 
+
 const OrderPreview = props => {
   const { data } = props;
   return (
@@ -82,6 +83,7 @@ class CouponForm extends Component {
     code: ""
   };
 
+  
   handleChange = e => {
     this.setState({
       code: e.target.value

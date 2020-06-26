@@ -24,6 +24,7 @@ import { productDetailURL, addToCartURL } from "../constants";
 import { fetchCart } from "../store/actions/cart";
 import { authAxios } from "../utils";
 
+
 class ProductDetail extends React.Component {
   state = {
     loading: false,

@@ -13,10 +13,12 @@ import {
   Visibility
 } from "semantic-ui-react";
 
+
 const getWidth = () => {
   const isSSR = typeof window === "undefined";
   return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth;
 };
+
 
 class DesktopContainer extends Component {
   state = {};
@@ -43,6 +45,7 @@ class DesktopContainer extends Component {
 DesktopContainer.propTypes = {
   children: PropTypes.node
 };
+
 
 class MobileContainer extends Component {
   state = {};

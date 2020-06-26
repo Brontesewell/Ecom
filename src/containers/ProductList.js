@@ -22,6 +22,7 @@ class ProductList extends React.Component {
     data: []
   };
 
+  
   componentDidMount() {
     this.setState({ loading: true });
     axios

@@ -17,9 +17,11 @@ class LoginForm extends React.Component {
     password: ""
   };
 
+  
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
+
 
   handleSubmit = e => {
     e.preventDefault();

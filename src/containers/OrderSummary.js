@@ -22,6 +22,7 @@ import {
   orderItemUpdateQuantityURL
 } from "../constants";
 
+
 class OrderSummary extends React.Component {
   state = {
     data: null,

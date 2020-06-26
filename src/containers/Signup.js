@@ -19,6 +19,7 @@ class RegistrationForm extends React.Component {
     password2: ""
   };
 
+  
   handleSubmit = e => {
     e.preventDefault();
     const { username, email, password1, password2 } = this.state;
